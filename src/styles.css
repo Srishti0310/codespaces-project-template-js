@@ -36,7 +36,7 @@ section.padding {
 section img.background {
   height: 100%;
   left: 50%;
-  object-fit: cover;
+  object-fit: contain;
   pointer-events: none;
   position: absolute;
   top: 0;
@@ -90,16 +90,16 @@ li {
 }
 
 li::marker {
-  color: #4e567e;
+  color: rgb(70, 114, 114);
 }
-
+/* #4e567e */
 a {
   color: black;
   text-decoration: none;
 }
 
 a:hover {
-  color: #4e567e;
+  color: rgb(77, 184, 184);
 }
 
 .container {
